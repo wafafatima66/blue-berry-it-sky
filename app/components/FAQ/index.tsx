@@ -51,7 +51,7 @@ const FAQ = () => {
                         {({ open }) => (
                             <>
                                 <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-2xl font-medium">
-                                    <span>What's your approach to cybersecurity?</span>
+                                    <span>What&#39;s your approach to cybersecurity?</span>
                                     <ChevronUpIcon
                                         className={`${open ? 'rotate-180 transform' : ''
                                             } h-5 w-5 text-purple-500`}

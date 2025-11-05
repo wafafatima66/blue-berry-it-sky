@@ -101,7 +101,7 @@ export default class Whyus extends Component {
                     <div className="text-center">
                         <h3 className="text-4xl sm:text-6xl font-bold text-black my-2">Why Choose Us</h3>
                         {/* <h3 className="text-4xl sm:text-6xl font-bold text-black opacity-50 lg:mr-48 my-2">Why Partner With Us?</h3> */}
-                        <h3 className="text-3xl sm:text-2xl font-bold text-black opacity-25 lg:-mr-32 my-2">At Blueberry IT Sky, we combine technical expertise with business acumen. Here's what sets us apart</h3>
+                        <h3 className="text-3xl sm:text-2xl font-bold text-black opacity-25 lg:-mr-32 my-2">At Blueberry IT Sky, we combine technical expertise with business acumen. Here&#39;s what sets us apart</h3>
                     </div>
 
                 </div>
@@ -109,9 +109,9 @@ export default class Whyus extends Component {
                 <Slider {...settings}>
                     {postData.map((items, i) => (
                         <div key={i}>
-                            <div className='bg-white m-3 py-14 my-10 text-center shadow-xl rounded-3xl h-[560px] flex flex-col'>
+                            <div className='bg-white m-3 py-14 my-10 text-center shadow-xl rounded-3xl min-h-[420px] md:min-h-[500px] lg:min-h-[560px] flex flex-col'>
                                 <div className='relative'>
-                                    <Image src={items.imgSrc} alt="gaby" width={282} height={282} className="inline-block m-auto" />
+                                    <Image src={items.imgSrc} alt="gaby" width={282} height={282} className="inline-block m-auto w-40 h-40 sm:w-56 sm:h-56 lg:w-[282px] lg:h-[282px]" />
                                     {/* <Image src={'/images/wework/linkedin.svg'} alt="greenbg" width={120} height={120} className=" absolute inline-block position-linkedin" /> */}
                                 </div>
                                 <h4 className='text-2xl font-bold pt-14'>{items.name}</h4>

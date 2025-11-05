@@ -3,16 +3,17 @@ import Services from './components/Services/index';
 import Aboutus from './components/Aboutus/index';
 import Digital from './components/Digital/index';
 import Beliefs from './components/Beliefs/index';
-import Whyus from './components/Whyus/index';
+import dynamic from 'next/dynamic';
+const Whyus = dynamic(() => import('./components/Whyus/index'), { ssr: false });
 import Ourteam from './components/Ourteam/index';
 import Featured from './components/Featured/index';
 import Manage from './components/Manage/index';
 import FAQ from './components/FAQ/index';
-import Testimonials from './components/Testimonials/index';
+const Testimonials = dynamic(() => import('./components/Testimonials/index'), { ssr: false });
 import Articles from './components/Articles/index';
 import Joinus from './components/Joinus/index';
 import Insta from './components/Insta/index';
-import ContactOverlay from './components/ContactOverlay/index';
+// ContactOverlay removed per request; Joinus section retains form functionality
 
 
 export default function Home() {
@@ -34,7 +35,6 @@ export default function Home() {
       <Articles />
       <Joinus />
       <Insta />
-      <ContactOverlay />
     </main>
   )
 }

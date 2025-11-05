@@ -11,7 +11,7 @@ const Aboutus = () => {
 
                     {/* COLUMN-1 */}
                     <div>
-                        <Image src="/images/featured/feat1.jpg" alt="man-icon" width={516} height={750} className="mx-auto md:mx-0" />
+                        <Image src="/images/featured/feat1.jpg" alt="man-icon" width={516} height={750} className="mx-auto md:mx-0 w-full h-auto max-w-[516px]" />
                     </div>
 
                     {/* COLUMN-2 */}
@@ -19,7 +19,7 @@ const Aboutus = () => {
                         <Image src="images/dedicated/comma.svg" alt="comma-image" width={200} height={106} className="absolute comma-pos hidden lg:block" />
                         <h2 className="text-4xl lg:text-65xl pt-4 font-bold sm:leading-tight mt-5 text-center lg:text-start">About Us</h2>
                         <p className="font-medium text-lightblack text-2xl mt-5 text-center lg:text-start">
-                            At Blueberry IT Sky, we're not just an IT agency—we're your digital transformation partner. Based in Dhaka and serving clients globally, we specialize in creating seamless digital experiences that drive measurable business results. Whether you're a fast-growing startup or an established enterprise, our team of experts works collaboratively with you to design, develop, and maintain technology solutions that elevate your competitive advantage and position you as an industry leader
+                            At Blueberry IT Sky, we&#39;re not just an IT agency—we&#39;re your digital transformation partner. Based in Dhaka and serving clients globally, we specialize in creating seamless digital experiences that drive measurable business results. Whether you&#39;re a fast-growing startup or an established enterprise, our team of experts works collaboratively with you to design, develop, and maintain technology solutions that elevate your competitive advantage and position you as an industry leader
                         </p>
                     </div>
 

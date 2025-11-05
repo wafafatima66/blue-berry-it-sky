@@ -5,7 +5,7 @@ const Digital = () => {
     return (
 
         <div className="">
-            <div className='w-full h-screen bg-digital bg-blue relative overflow-hidden'>
+            <div className='w-full min-h-[600px] sm:min-h-[700px] lg:h-screen bg-digital bg-blue relative overflow-hidden'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 h-full items-center px-4 lg:px-8'>
 
                     {/* COLUMN-1 */}
@@ -24,8 +24,8 @@ const Digital = () => {
                     {/* COLUMN-2 */}
 
                     <div>
-                        <div className="lg:absolute girldoodle">
-                            <Image src="/images/digital/berry.png" alt="girldoodle" width={815} height={591} />
+                        <div className="girldoodle lg:absolute">
+                            <Image src="/images/digital/berry.png" alt="girldoodle" width={815} height={591} className="w-64 sm:w-80 md:w-[600px] lg:w-[815px] h-auto mx-auto" />
                         </div>
                     </div>
 
