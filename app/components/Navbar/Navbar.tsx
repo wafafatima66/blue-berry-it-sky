@@ -38,8 +38,8 @@ const Navbar = () => {
                             {/* LOGO */}
 
                             <div className="flex flex-shrink-0 items-center border-right">
-                                <Link href="/" className='text-2xl sm:text-4xl font-semibold text-red'>
-                                    Blue Berry IT Sky
+                                <Link href="/" className='text-2xl sm:text-4xl font-semibold text-blue'>
+                                    Blueberry IT Sky
                                 </Link>
                             </div>
 
