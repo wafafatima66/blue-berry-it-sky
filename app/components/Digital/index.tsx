@@ -25,7 +25,16 @@ const Digital = () => {
 
                     <div>
                         <div className="girldoodle lg:absolute">
-                            <Image src="/images/digital/berry.png" alt="girldoodle" width={815} height={591} className="w-64 sm:w-80 md:w-[600px] lg:w-[815px] h-auto mx-auto" />
+                            <Image
+                                src="/images/digital/berry.png"
+                                alt="girldoodle"
+                                width={815}
+                                height={591}
+                                priority
+                                loading="eager"
+                                sizes="(max-width: 640px) 16rem, (max-width: 768px) 20rem, (max-width: 1024px) 600px, 815px"
+                                className="w-64 sm:w-80 md:w-[600px] lg:w-[815px] h-auto mx-auto"
+                            />
                         </div>
                     </div>
 
